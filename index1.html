@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>product</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        <div id="content">
+            <div class="header">
+                <div class="toggle-btn"><i class="fa-solid fa-bars"></i></div>
+                <div class="dropdown-menu open">
+                    <a href="index.html" class="aheader">Shop</a>
+                    <a href="" class="aheader">On Sale</a>
+                    <a href="" class="aheader">New Arrivals</a>
+                    <a href="" class="aheader">Brands</a>
+                </div>
+                <a href="index.html" class="apce"><h1 class="Title">Shop.Co</h1></a>
+                <div class="aheader">
+                    <a href="index.html">Shop</a>
+                    <a href="#TopSale">On Sale</a>
+                    <a href="#new-arrivals">New Arrivals</a>
+                    <a href="">Brands</a>
+                </div>
+                <div class="group">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+                        <g>
+                            <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                        </g>
+                    </svg>
+                    <input placeholder="Search For Products..." type="search" class="input" id="searchInput">
+                </div>
+                <a href="cart.html" class="ep"><i class="fas fa-shopping-cart"></i></a>
+                <a href="" class="ep"><i class="fa-regular fa-user"></i></a>
+                <div>
+                    <label class="switch" for="switch">
+                        <input id="switch" type="checkbox" class="circle" />
+                        <svg viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg" class="moon svg">
+                            <path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path>
+                        </svg>
+                        <div class="sun svg">
+                            <span class="dot"></span>
+                        </div>
+                    </label>
+                </div>
+            </div><br>
+            <hr>
+            <div class="imag-container">
+                <div class="imgs">
+                    <div class="image-container">
+                        <img src="img/image 1.png" alt="One Life Graphic T-shirt">
+                    </div>
+                    <div class="imagee-container">
+                        <img src="img/image 1.png" alt="One Life Graphic T-shirt">
+                        <img src="img/image 5.png" alt="One Life Graphic T-shirt">
+                        <img src="img/image 6.png" alt="One Life Graphic T-shirt">
+                    </div>
+
+                </div>
+                <div class="imginfo">
+                    <h1>One Life Graphic T-shirt</h1>
+                    <div class="ratings-container">
+                        <!-- هنا تضع التقييم بالنجوم -->
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                    <h3>$212 <del>$242</del></h3>
+                    <p >This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.</p>
+                    <hr>
+                    <p>Select Colors</p>
+                    <div class="circle-container">
+                        <div class="circle active"> <!-- هذه الدائرة تحتوي على الـ class "active" افتراضيًا -->
+                            <span class="checkmark">✓</span>
+                        </div>
+                        <div class="circle">
+                            <span class="checkmark">✓</span>
+                        </div>
+                        <div class="circle">
+                            <span class="checkmark">✓</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <p>Choose Size</p>
+                    <div class="sizes">
+                        <a href="">Small</a>
+                        <a href="">Medium</a>
+                        <a href="">Large</a>
+                        <a href="">X-Large</a>
+                    </div>
+                    <div class="countere">
+                    <div class="counter-container">
+                        <button class="counter-btn" id="decrease-btn">-</button>
+                        <span class="counter-value" id="counter-value">1</span>
+                        <button class="counter-btn" id="increase-btn">+</button>
+            
+                    </div>
+                    <div>
+                        <button class="cartBtn">
+                            <svg class="cart" fill="white" viewBox="0 0 576 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                            ADD TO CART
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" class="product"><path d="M211.8 0c7.8 0 14.3 5.7 16.7 13.2C240.8 51.9 277.1 80 320 80s79.2-28.1 91.5-66.8C413.9 5.7 420.4 0 428.2 0h12.6c22.5 0 44.2 7.9 61.5 22.3L628.5 127.4c6.6 5.5 10.7 13.5 11.4 22.1s-2.1 17.1-7.8 23.6l-56 64c-11.4 13.1-31.2 14.6-44.6 3.5L480 197.7V448c0 35.3-28.7 64-64 64H224c-35.3 0-64-28.7-64-64V197.7l-51.5 42.9c-13.3 11.1-33.1 9.6-44.6-3.5l-56-64c-5.7-6.5-8.5-15-7.8-23.6s4.8-16.6 11.4-22.1L137.7 22.3C155 7.9 176.7 0 199.2 0h12.6z"></path></svg>
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tabs">
+                <a class="tab-link active" data-target="details">Product Details</a>
+                <a class="tab-link" data-target="reviews">Rating & Reviews</a>
+                <a class="tab-link" data-target="faqs">FAQs</a>
+                <div class="indicator"></div>
+            </div>
+        
+            <!-- المحتوى الخاص بكل تبويب -->
+            <div id="details" class="tab-content active">
+                <h2>Product Details</h2>
+                <p>
+                    Introducing the <strong>One Life Graphic T-shirt</strong>, a premium casual wear designed for comfort and style. Made with high-quality cotton fabric, this T-shirt is soft to the touch and perfect for everyday wear.
+                </p>
+                <ul>
+                    <li><strong>Color:</strong> #3E4234 (A deep olive tone)</li>
+                    <li><strong>Material:</strong> 100% Cotton</li>
+                    <li><strong>Sizes Available:</strong> S, M, L, XL, XXL</li>
+                    <li><strong>Graphic Design:</strong> Features a unique "One Life" motivational quote printed across the front.</li>
+                    <li><strong>Fit:</strong> Regular fit with a round neckline.</li>
+                    <li><strong>Care Instructions:</strong> Machine washable at 30°C, do not bleach, tumble dry low.</li>
+                </ul>
+            </div>
+        
+            <div id="reviews" class="tab-content">
+                <h2>Rating & Reviews</h2>
+                <div class="comment">
+                    <div class="contents-comment">
+                        <div class="stare">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>  
+                            <h2>Sarah M.</h2>
+                        <p>"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."</p>
+                    </div>
+                    <div class="contents-comment">
+                        <div class="stare">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>   
+                            <h2>Alex K.</h2>
+                        <p>"The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me."</p>
+                    </div>
+                    <div class="contents-comment">
+                        <div class="stare">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>      
+                            <h2>James L.</h2>
+                        <p>"This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt."</p>
+                    </div>
+                    <div class="contents-comment">
+                        <div class="stare">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>  
+                            <h2>Sarah M.</h2>
+                        <p>"As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It's evident that the designer poured their creativity into making this t-shirt stand out."</p>
+                    </div>
+                    <div class="contents-comment">
+                        <div class="stare">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>   
+                            <h2>Alex K.</h2>
+                        <p>"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion."</p>
+                    </div>
+                    <div class="contents-comment">
+                        <div class="stare">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>      
+                            <h2>James L.</h2>
+                        <p>"I'm not just wearing a t-shirt; I'm wearing a piece of design philosophy. The intricate details and thoughtful layout of the design make this shirt a conversation starter."</p>
+                    </div>
+                    <div class="contents-comment">
+                        <div class="stare">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>  
+                            <h2>Sarah M.</h2>
+                        <p>"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”</p>
+                    </div>
+                    <div class="contents-comment">
+                        <div class="stare">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>   
+                            <h2>Alex K.</h2>
+                        <p>"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="faqs" class="tab-content">
+                <h2>FAQs</h2>
+                <h3>1. What is the material of the One Life Graphic T-shirt?</h3>
+        <p>The T-shirt is made from 100% high-quality cotton, ensuring a soft and comfortable feel for everyday wear.</p>
+        
+        <h3>2. How do I care for the T-shirt?</h3>
+        <p>To keep your T-shirt in the best condition, we recommend machine washing it at 30°C, avoiding bleach, and tumble drying on low heat.</p>
+        
+        <h3>3. What sizes are available?</h3>
+        <p>The One Life Graphic T-shirt is available in sizes ranging from S to XXL. Please refer to our size chart for more details on fit.</p>
+        
+        <h3>4. Is the color true to what is shown in the pictures?</h3>
+        <p>Yes, the color of the T-shirt is #3E4234, which is a deep olive tone. Please note that slight variations may occur due to screen settings.</p>
+
+        <h3>5. Can I return or exchange the T-shirt?</h3>
+        <p>Yes, we offer a 30-day return and exchange policy. Please ensure the item is in its original condition with tags attached.</p>
+            </div>
+            <hr>
+            <div class="title-comment">
+                <h1>You might also like</h1>
+            </div>
+            <div class="product-container">
+                <a href="" class="apc">  
+                    <div class="product-card">
+                        <div class="image-container">
+                            <img src="img/image 16.png" alt="Polo with Contrast Trims">
+                        </div>
+                        <div class="product-details">
+                            <p>Polo with Contrast Trims</p>
+                            <div class="ratings-container">
+                                <!-- هنا تضع التقييم بالنجوم -->
+                                ⭐⭐⭐⭐⭐
+                            </div>
+                            <h3>$212 <del>$242</del></h3>
+                            <button class="cartBtn">
+                                <svg class="cart" fill="white" viewBox="0 0 576 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                                ADD TO CART
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" class="product"><path d="M211.8 0c7.8 0 14.3 5.7 16.7 13.2C240.8 51.9 277.1 80 320 80s79.2-28.1 91.5-66.8C413.9 5.7 420.4 0 428.2 0h12.6c22.5 0 44.2 7.9 61.5 22.3L628.5 127.4c6.6 5.5 10.7 13.5 11.4 22.1s-2.1 17.1-7.8 23.6l-56 64c-11.4 13.1-31.2 14.6-44.6 3.5L480 197.7V448c0 35.3-28.7 64-64 64H224c-35.3 0-64-28.7-64-64V197.7l-51.5 42.9c-13.3 11.1-33.1 9.6-44.6-3.5l-56-64c-5.7-6.5-8.5-15-7.8-23.6s4.8-16.6 11.4-22.1L137.7 22.3C155 7.9 176.7 0 199.2 0h12.6z"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="apc">  
+                    <div class="product-card">
+                        <div class="image-container">
+                            <img src="img/image 17.png" alt="Gradient Graphic T-shirt">
+                        </div>
+                        <div class="product-details">
+                            <p>Gradient Graphic T-shirt</p>
+                            <div class="ratings-container">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+                            <h3>$240 <del>$260</del></h3>
+                            <button class="cartBtn">
+                                <svg class="cart" fill="white" viewBox="0 0 576 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                                ADD TO CART
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" class="product"><path d="M211.8 0c7.8 0 14.3 5.7 16.7 13.2C240.8 51.9 277.1 80 320 80s79.2-28.1 91.5-66.8C413.9 5.7 420.4 0 428.2 0h12.6c22.5 0 44.2 7.9 61.5 22.3L628.5 127.4c6.6 5.5 10.7 13.5 11.4 22.1s-2.1 17.1-7.8 23.6l-56 64c-11.4 13.1-31.2 14.6-44.6 3.5L480 197.7V448c0 35.3-28.7 64-64 64H224c-35.3 0-64-28.7-64-64V197.7l-51.5 42.9c-13.3 11.1-33.1 9.6-44.6-3.5l-56-64c-5.7-6.5-8.5-15-7.8-23.6s4.8-16.6 11.4-22.1L137.7 22.3C155 7.9 176.7 0 199.2 0h12.6z"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="apc">  
+                    <div class="product-card">
+                        <div class="image-container">
+                            <img src="img/image 18.png" alt="Polo with Tipping Details">
+                        </div>
+                        <div class="product-details">
+                            <p>Polo with Tipping Details</p>
+                            <div class="ratings-container">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+                            <h3>$180</h3>
+                            <button class="cartBtn">
+                                <svg class="cart" fill="white" viewBox="0 0 576 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                                ADD TO CART
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" class="product"><path d="M211.8 0c7.8 0 14.3 5.7 16.7 13.2C240.8 51.9 277.1 80 320 80s79.2-28.1 91.5-66.8C413.9 5.7 420.4 0 428.2 0h12.6c22.5 0 44.2 7.9 61.5 22.3L628.5 127.4c6.6 5.5 10.7 13.5 11.4 22.1s-2.1 17.1-7.8 23.6l-56 64c-11.4 13.1-31.2 14.6-44.6 3.5L480 197.7V448c0 35.3-28.7 64-64 64H224c-35.3 0-64-28.7-64-64V197.7l-51.5 42.9c-13.3 11.1-33.1 9.6-44.6-3.5l-56-64c-5.7-6.5-8.5-15-7.8-23.6s4.8-16.6 11.4-22.1L137.7 22.3C155 7.9 176.7 0 199.2 0h12.6z"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="apc">  
+                    <div class="product-card">
+                        <div class="image-container">
+                            <img src="img/image 24.png" alt="Black Striped T-shirt">
+                        </div>
+                        <div class="product-details">
+                            <p>Black Striped T-shirt</p>
+                            <div class="ratings-container">
+                                ⭐⭐⭐⭐⭐
+                            </div>
+                            <h3>$180</h3>
+                            <button class="cartBtn">
+                                <svg class="cart" fill="white" viewBox="0 0 576 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"></path></svg>
+                                ADD TO CART
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" class="product"><path d="M211.8 0c7.8 0 14.3 5.7 16.7 13.2C240.8 51.9 277.1 80 320 80s79.2-28.1 91.5-66.8C413.9 5.7 420.4 0 428.2 0h12.6c22.5 0 44.2 7.9 61.5 22.3L628.5 127.4c6.6 5.5 10.7 13.5 11.4 22.1s-2.1 17.1-7.8 23.6l-56 64c-11.4 13.1-31.2 14.6-44.6 3.5L480 197.7V448c0 35.3-28.7 64-64 64H224c-35.3 0-64-28.7-64-64V197.7l-51.5 42.9c-13.3 11.1-33.1 9.6-44.6-3.5l-56-64c-5.7-6.5-8.5-15-7.8-23.6s4.8-16.6 11.4-22.1L137.7 22.3C155 7.9 176.7 0 199.2 0h12.6z"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <button id="scrollToTopBtn" class="scroll-to-top" title="Go to top">⬆️</button>
+            <div class="email">
+                <div class="firstpart">
+                    <h1>STAY UP TO DATE ABOUT OUR LATEST OFFERS</h1>
+                </div>
+                <div class="secoundpart">
+                    <input type="email" name="email" class="emails" placeholder="Enter Your Email Addres">
+                    <input type="button" value="Subscribe to Newsletter"  class="emails">
+                </div>
+            </div>
+            <div class="footer">
+                <div class="column">
+                    <h1>SHOP.CO</h1>
+                    <p>We have clothes that suit your style and which you’re proud to wear. From women to men.</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61566925374002"><i class="fab fa-facebook-f"></i></a>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="column">
+                    <h4>COMPANY</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Works</a></li>
+                        <li><a href="#">Career</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>HELP</h4>
+                    <ul>
+                        <li><a href="#">Customer Support</a></li>
+                        <li><a href="#">Delivery Details</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>FAQ</h4>
+                    <ul>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Manage Deliveries</a></li>
+                        <li><a href="#">Orders</a></li>
+                        <li><a href="#">Payments</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h4>RESOURCES</h4>
+                    <ul>
+                        <li><a href="#">Free eBooks</a></li>
+                        <li><a href="#">Development Tutorial</a></li>
+                        <li><a href="#">How to - Blog</a></li>
+                        <li><a href="#">Youtube Playlist</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="lastfooter">
+                <p>Shop.co © 2000-2023, All Rights Reserved</p>
+                <img src="img/Frame 53.png" >
+            </div>
+        </div>
+        <script src="javascript1.js"></script>
+    </body>
+</html>
